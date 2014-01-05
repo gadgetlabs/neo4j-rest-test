@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dedupe>
+	<entity type="person">
+		<deduplicate attribute="name"/>
+	</entity>
+	
+	<entity type="phoneNumber">
+		<deduplicate attribute="number"/>
+	</entity>
+	
+	<entity type="email">
+		<deduplicate attribute="address"/>
+	</entity>
+	
+</dedupe>
+
